@@ -13,3 +13,4 @@
 /Users/Micheal/Core-Web-API/BusinessLogic/obj/Debug/net9.0/refint/BusinessLogic.dll
 /Users/Micheal/Core-Web-API/BusinessLogic/obj/Debug/net9.0/BusinessLogic.pdb
 /Users/Micheal/Core-Web-API/BusinessLogic/obj/Debug/net9.0/ref/BusinessLogic.dll
+/Users/Micheal/Core-Web-API/BusinessLogic/obj/Debug/net9.0/BusinessLogic.sourcelink.json

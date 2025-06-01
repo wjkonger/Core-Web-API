@@ -13,3 +13,4 @@
 /Users/Micheal/Core-Web-API/DataAccess/obj/Debug/net9.0/refint/DataAccess.dll
 /Users/Micheal/Core-Web-API/DataAccess/obj/Debug/net9.0/DataAccess.pdb
 /Users/Micheal/Core-Web-API/DataAccess/obj/Debug/net9.0/ref/DataAccess.dll
+/Users/Micheal/Core-Web-API/DataAccess/obj/Debug/net9.0/DataAccess.sourcelink.json

@@ -34,3 +34,4 @@
 /Users/Micheal/Core-Web-API/CoreApi/bin/Debug/net9.0/DataAccess.dll
 /Users/Micheal/Core-Web-API/CoreApi/bin/Debug/net9.0/DataAccess.pdb
 /Users/Micheal/Core-Web-API/CoreApi/bin/Debug/net9.0/BusinessLogic.pdb
+/Users/Micheal/Core-Web-API/CoreApi/obj/Debug/net9.0/CoreApi.sourcelink.json
