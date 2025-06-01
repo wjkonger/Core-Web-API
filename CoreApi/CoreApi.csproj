@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="../Contract/Model.csproj" />
     <ProjectReference Include="../DataAccess/DataAccess.csproj" />
-    <ProjectReference Include="..\Contract\Contract.csproj" />
     <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj" />
   </ItemGroup>
 

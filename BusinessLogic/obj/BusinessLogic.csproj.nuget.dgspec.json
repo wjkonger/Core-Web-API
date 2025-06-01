@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/Micheal/Core-Web-API/Contract/Contract.csproj": {
-                "projectPath": "/Users/Micheal/Core-Web-API/Contract/Contract.csproj"
+              "/Users/Micheal/Core-Web-API/Contract/Model.csproj": {
+                "projectPath": "/Users/Micheal/Core-Web-API/Contract/Model.csproj"
               }
             }
           }
@@ -67,12 +67,12 @@
         }
       }
     },
-    "/Users/Micheal/Core-Web-API/Contract/Contract.csproj": {
+    "/Users/Micheal/Core-Web-API/Contract/Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Micheal/Core-Web-API/Contract/Contract.csproj",
-        "projectName": "Contract",
-        "projectPath": "/Users/Micheal/Core-Web-API/Contract/Contract.csproj",
+        "projectUniqueName": "/Users/Micheal/Core-Web-API/Contract/Model.csproj",
+        "projectName": "Model",
+        "projectPath": "/Users/Micheal/Core-Web-API/Contract/Model.csproj",
         "packagesPath": "/Users/Micheal/.nuget/packages/",
         "outputPath": "/Users/Micheal/Core-Web-API/Contract/obj/",
         "projectStyle": "PackageReference",

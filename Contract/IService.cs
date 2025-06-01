@@ -1,4 +1,4 @@
-﻿namespace Contract;
+﻿namespace Model;
 
 public interface IService<T> 
 {

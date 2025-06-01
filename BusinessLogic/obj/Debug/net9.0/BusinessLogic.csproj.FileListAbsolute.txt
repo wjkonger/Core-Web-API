@@ -1,8 +1,6 @@
 /Users/Micheal/Core-Web-API/BusinessLogic/bin/Debug/net9.0/BusinessLogic.deps.json
 /Users/Micheal/Core-Web-API/BusinessLogic/bin/Debug/net9.0/BusinessLogic.dll
 /Users/Micheal/Core-Web-API/BusinessLogic/bin/Debug/net9.0/BusinessLogic.pdb
-/Users/Micheal/Core-Web-API/BusinessLogic/bin/Debug/net9.0/Contract.dll
-/Users/Micheal/Core-Web-API/BusinessLogic/bin/Debug/net9.0/Contract.pdb
 /Users/Micheal/Core-Web-API/BusinessLogic/obj/Debug/net9.0/BusinessLogic.csproj.AssemblyReference.cache
 /Users/Micheal/Core-Web-API/BusinessLogic/obj/Debug/net9.0/BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
 /Users/Micheal/Core-Web-API/BusinessLogic/obj/Debug/net9.0/BusinessLogic.AssemblyInfoInputs.cache
@@ -14,3 +12,5 @@
 /Users/Micheal/Core-Web-API/BusinessLogic/obj/Debug/net9.0/BusinessLogic.pdb
 /Users/Micheal/Core-Web-API/BusinessLogic/obj/Debug/net9.0/ref/BusinessLogic.dll
 /Users/Micheal/Core-Web-API/BusinessLogic/obj/Debug/net9.0/BusinessLogic.sourcelink.json
+/Users/Micheal/Core-Web-API/BusinessLogic/bin/Debug/net9.0/Model.dll
+/Users/Micheal/Core-Web-API/BusinessLogic/bin/Debug/net9.0/Model.pdb

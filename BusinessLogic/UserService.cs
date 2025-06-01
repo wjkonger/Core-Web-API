@@ -1,4 +1,4 @@
-﻿using Contract;
+﻿using Model;
 namespace BusinessLogic;
 
 

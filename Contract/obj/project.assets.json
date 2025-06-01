@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Micheal/Core-Web-API/Contract/Contract.csproj",
-      "projectName": "Contract",
-      "projectPath": "/Users/Micheal/Core-Web-API/Contract/Contract.csproj",
+      "projectUniqueName": "/Users/Micheal/Core-Web-API/Contract/Model.csproj",
+      "projectName": "Model",
+      "projectPath": "/Users/Micheal/Core-Web-API/Contract/Model.csproj",
       "packagesPath": "/Users/Micheal/.nuget/packages/",
       "outputPath": "/Users/Micheal/Core-Web-API/Contract/obj/",
       "projectStyle": "PackageReference",

@@ -1,5 +1,5 @@
 using System;
-using Contract;
+using Model;
 
 namespace DataAccess;
 

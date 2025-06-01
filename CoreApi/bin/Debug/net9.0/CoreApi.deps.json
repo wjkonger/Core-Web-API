@@ -9,8 +9,8 @@
       "CoreApi/1.0.0": {
         "dependencies": {
           "BusinessLogic": "1.0.0",
-          "Contract": "1.0.0",
           "DataAccess": "1.0.0",
+          "Model": "1.0.0",
           "Swashbuckle.AspNetCore": "8.1.2"
         },
         "runtime": {
@@ -66,7 +66,7 @@
       },
       "BusinessLogic/1.0.0": {
         "dependencies": {
-          "Contract": "1.0.0"
+          "Model": "1.0.0"
         },
         "runtime": {
           "BusinessLogic.dll": {
@@ -75,20 +75,20 @@
           }
         }
       },
-      "Contract/1.0.0": {
+      "DataAccess/1.0.0": {
+        "dependencies": {
+          "Model": "1.0.0"
+        },
         "runtime": {
-          "Contract.dll": {
+          "DataAccess.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "DataAccess/1.0.0": {
-        "dependencies": {
-          "Contract": "1.0.0"
-        },
+      "Model/1.0.0": {
         "runtime": {
-          "DataAccess.dll": {
+          "Model.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -149,12 +149,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Contract/1.0.0": {
+    "DataAccess/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "DataAccess/1.0.0": {
+    "Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
