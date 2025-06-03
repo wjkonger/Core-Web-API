@@ -1,17 +1,17 @@
 # Ignore build output
-bin/
-obj/
-publish/
+CoreApi/bin/
+CoreApi/obj/
+CoreApi/publish/
 
 # User-specific files
-*.user
-*.suo
-.vscode/
+CoreApi/*.user
+CoreApi/*.suo
+CoreApi/.vscode/
 
 # Environment files
-.env
-.env.*
+CoreApi/.env
+CoreApi/.env.*
 
 # OS files
-.DS_Store
-Thumbs.db
+CoreApi/.DS_Store
+CoreApi/Thumbs.db
