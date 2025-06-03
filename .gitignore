@@ -7,6 +7,13 @@ BusinessLogic/bin/
 BusinessLogic/obj/
 BusinessLogic/publish/
 
+Model/bin/
+Model/obj/
+Model/publish/
+
+DataAccess/bin/
+DataAccess/obj/
+
 # User-specific files
 CoreApi/*.user
 CoreApi/*.suo
