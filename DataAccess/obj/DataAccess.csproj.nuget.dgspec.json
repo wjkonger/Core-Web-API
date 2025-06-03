@@ -4,14 +4,14 @@
     "/Users/Micheal/Core-Web-API/DataAccess/DataAccess.csproj": {}
   },
   "projects": {
-    "/Users/Micheal/Core-Web-API/Contract/Model.csproj": {
+    "/Users/Micheal/Core-Web-API/DataAccess/DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Micheal/Core-Web-API/Contract/Model.csproj",
-        "projectName": "Model",
-        "projectPath": "/Users/Micheal/Core-Web-API/Contract/Model.csproj",
+        "projectUniqueName": "/Users/Micheal/Core-Web-API/DataAccess/DataAccess.csproj",
+        "projectName": "DataAccess",
+        "projectPath": "/Users/Micheal/Core-Web-API/DataAccess/DataAccess.csproj",
         "packagesPath": "/Users/Micheal/.nuget/packages/",
-        "outputPath": "/Users/Micheal/Core-Web-API/Contract/obj/",
+        "outputPath": "/Users/Micheal/Core-Web-API/DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Micheal/.nuget/NuGet/NuGet.Config"
@@ -25,7 +25,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/Micheal/Core-Web-API/Model/Model.csproj": {
+                "projectPath": "/Users/Micheal/Core-Web-API/Model/Model.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -63,14 +67,14 @@
         }
       }
     },
-    "/Users/Micheal/Core-Web-API/DataAccess/DataAccess.csproj": {
+    "/Users/Micheal/Core-Web-API/Model/Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Micheal/Core-Web-API/DataAccess/DataAccess.csproj",
-        "projectName": "DataAccess",
-        "projectPath": "/Users/Micheal/Core-Web-API/DataAccess/DataAccess.csproj",
+        "projectUniqueName": "/Users/Micheal/Core-Web-API/Model/Model.csproj",
+        "projectName": "Model",
+        "projectPath": "/Users/Micheal/Core-Web-API/Model/Model.csproj",
         "packagesPath": "/Users/Micheal/.nuget/packages/",
-        "outputPath": "/Users/Micheal/Core-Web-API/DataAccess/obj/",
+        "outputPath": "/Users/Micheal/Core-Web-API/Model/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/Micheal/.nuget/NuGet/NuGet.Config"
@@ -84,11 +88,7 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {
-              "/Users/Micheal/Core-Web-API/Contract/Model.csproj": {
-                "projectPath": "/Users/Micheal/Core-Web-API/Contract/Model.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

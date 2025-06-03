@@ -17,8 +17,8 @@
   "libraries": {
     "Model/1.0.0": {
       "type": "project",
-      "path": "../Contract/Model.csproj",
-      "msbuildProject": "../Contract/Model.csproj"
+      "path": "../Model/Model.csproj",
+      "msbuildProject": "../Model/Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -51,8 +51,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "/Users/Micheal/Core-Web-API/Contract/Model.csproj": {
-              "projectPath": "/Users/Micheal/Core-Web-API/Contract/Model.csproj"
+            "/Users/Micheal/Core-Web-API/Model/Model.csproj": {
+              "projectPath": "/Users/Micheal/Core-Web-API/Model/Model.csproj"
             }
           }
         }

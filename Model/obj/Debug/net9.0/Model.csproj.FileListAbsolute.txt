@@ -10,3 +10,15 @@
 /Users/Micheal/Core-Web-API/Contract/obj/Debug/net9.0/refint/Model.dll
 /Users/Micheal/Core-Web-API/Contract/obj/Debug/net9.0/Model.pdb
 /Users/Micheal/Core-Web-API/Contract/obj/Debug/net9.0/ref/Model.dll
+/Users/Micheal/Core-Web-API/Model/bin/Debug/net9.0/Model.deps.json
+/Users/Micheal/Core-Web-API/Model/bin/Debug/net9.0/Model.dll
+/Users/Micheal/Core-Web-API/Model/bin/Debug/net9.0/Model.pdb
+/Users/Micheal/Core-Web-API/Model/obj/Debug/net9.0/Model.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Micheal/Core-Web-API/Model/obj/Debug/net9.0/Model.AssemblyInfoInputs.cache
+/Users/Micheal/Core-Web-API/Model/obj/Debug/net9.0/Model.AssemblyInfo.cs
+/Users/Micheal/Core-Web-API/Model/obj/Debug/net9.0/Model.csproj.CoreCompileInputs.cache
+/Users/Micheal/Core-Web-API/Model/obj/Debug/net9.0/Model.sourcelink.json
+/Users/Micheal/Core-Web-API/Model/obj/Debug/net9.0/Model.dll
+/Users/Micheal/Core-Web-API/Model/obj/Debug/net9.0/refint/Model.dll
+/Users/Micheal/Core-Web-API/Model/obj/Debug/net9.0/Model.pdb
+/Users/Micheal/Core-Web-API/Model/obj/Debug/net9.0/ref/Model.dll

@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="../Contract/Model.csproj" />
+    <ProjectReference Include="../Model/Model.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

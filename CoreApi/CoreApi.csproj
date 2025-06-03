@@ -11,9 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../Contract/Model.csproj" />
+    <ProjectReference Include="../Model/Model.csproj" />
     <ProjectReference Include="../DataAccess/DataAccess.csproj" />
-    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj" />
+    <ProjectReference Include="../BusinessLogic/BusinessLogic.csproj" />
   </ItemGroup>
 
 </Project>
