@@ -3,6 +3,10 @@ CoreApi/bin/
 CoreApi/obj/
 CoreApi/publish/
 
+BusinessLogic/bin/
+BusinessLogic/obj/
+BusinessLogic/publish/
+
 # User-specific files
 CoreApi/*.user
 CoreApi/*.suo

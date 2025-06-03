@@ -31,6 +31,17 @@ app.MapGet("/", context =>
     return Task.CompletedTask;
 });
 
+app.MapGet("/product/{id}", (int id) =>
+{
+    return $"Reading prdudct with ID: {id}";
+
+});
+
+app.MapPost("/product", () =>{
+    return "Creating a product";
+});
+
+
 app.MapControllers(); 
 app.Run();
 
