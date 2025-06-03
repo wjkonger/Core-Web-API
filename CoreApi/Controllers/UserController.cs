@@ -10,7 +10,7 @@ namespace CoreApi.Controllers
     {
         private readonly IService<User> _userService;
 
-        
+
         public UserController(IService<User> service)
         {
             _userService = service;
@@ -30,8 +30,8 @@ namespace CoreApi.Controllers
         }
 
         // GET: api/users/1
-        [HttpGet("{id}")]
-        public ActionResult<User> GetById(int id)
+        [HttpGet("{id}/{color}")]
+        public ActionResult<User> GetById(int id, string color)
         {
             var user = _userService.RetrieveById(id);
 
@@ -41,6 +41,29 @@ namespace CoreApi.Controllers
             }
 
             return Ok(user);
+        }
+
+        // GET: api/users
+        [HttpGet]
+        [Route("GetString/{id?}")]
+        public ActionResult<string> GetString(int? id)
+        {
+            if (id.HasValue)
+            {
+                return Ok($"Hello world {id}");
+            }
+            else
+            {
+                return Ok($"Hello world {id}");
+            }
+
+        }
+        
+        [HttpPost]
+        public ActionResult<User> Create([FromBody]User oUser)
+        {
+            return Ok(oUser);
+        
         }
     }
 }

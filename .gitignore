@@ -26,3 +26,5 @@ CoreApi/.env.*
 # OS files
 CoreApi/.DS_Store
 CoreApi/Thumbs.db
+
+.fake
