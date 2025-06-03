@@ -33,7 +33,7 @@ app.MapGet("/", context =>
 
 app.MapGet("/product/{id}", (int id) =>
 {
-    return $"Reading prdudct with ID: {id}";
+    return $"Reading prdudct  with ID: {id}";
 
 });
 
