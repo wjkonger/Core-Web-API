@@ -1,6 +1,7 @@
 using Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using CoreApi.Service;
 
 namespace CoreApi.Controllers
 {
@@ -9,12 +10,34 @@ namespace CoreApi.Controllers
     public class UserController : ControllerBase
     {
         private readonly IService<User> _userService;
+        private readonly IConfiguration _configuration;
 
 
-        public UserController(IService<User> service)
+        public UserController(IService<User> service, IConfiguration configuration)
         {
             _userService = service;
+            _configuration = configuration;
         }
+
+        [HttpPost]
+        public IActionResult Login([FromBody] LoginRequest request)
+        {
+            var secretKey = _configuration["JWT:SigningKey"];
+            var issuer = _configuration["JWT:Issuer"];
+            var audience = _configuration["JWT:Audience"];
+
+            if (request.Username == "admin" && request.Password == "password") // Just a demo
+            {
+                var tokenService = new JwtTokenGenerator();
+                var token = tokenService.GenerateToken(request.Username, secretKey, issuer, audience);
+                return Ok(new { token });
+            }
+
+            return Unauthorized();
+        }
+
+       
+
 
         private static readonly List<User> Users = new List<User>
         {
@@ -26,6 +49,8 @@ namespace CoreApi.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<User>> GetAll()
         {
+    
+
             return Ok(Users);
         }
 
@@ -58,12 +83,7 @@ namespace CoreApi.Controllers
             }
 
         }
-        
-        [HttpPost]
-        public ActionResult<User> Create([FromBody]User oUser)
-        {
-            return Ok(oUser);
-        
-        }
+
+       
     }
 }

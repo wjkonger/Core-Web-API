@@ -9,6 +9,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+
 builder.Services.AddScoped<IService<User>, UserService>();
 builder.Services.AddScoped<IRepository<User>, UserRepository>();
 
@@ -41,6 +43,7 @@ app.MapPost("/product", () =>{
     return "Creating a product";
 });
 
+Console.WriteLine($"ApiKey from config: {builder.Configuration["MySettings:ApiKey"]}");
 
 app.MapControllers(); 
 app.Run();
