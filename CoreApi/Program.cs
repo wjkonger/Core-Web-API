@@ -1,6 +1,10 @@
 using BusinessLogic;
 using Model;
 using DataAccess;
+using Amazon.SecretsManager;
+using Amazon.Extensions.NETCore.Setup;
+using Amazon;
+using Amazon.Runtime;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,8 +13,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var awsOptions = new AWSOptions
+{
+    Profile = "mylocal",
+    Region = RegionEndpoint.CACentral1
+};
 
-
+// Register AWS services with dependency injection
+builder.Services.AddDefaultAWSOptions(awsOptions);
+builder.Services.AddAWSService<IAmazonSecretsManager>();
 builder.Services.AddScoped<IService<User>, UserService>();
 builder.Services.AddScoped<IRepository<User>, UserRepository>();
 
